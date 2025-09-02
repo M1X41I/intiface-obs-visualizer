@@ -74,7 +74,7 @@ window.addEventListener("load",  async function() {
 });
 
 let deviceWebsocket = new WebSocket("ws://12345");
-let deviceAddress = "A9816725B";
+let deviceAddress = "50:C5:F9:19:00:18";
 let handshakePacket = {
   identifier: "LVS-Test",
   address: deviceAddress,
